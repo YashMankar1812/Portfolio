@@ -1,4 +1,10 @@
 import React from 'react';
+import GymImage from 'src/assets/Gym.png';
+import BusinessImage from 'src/assets/Bussiness.png';
+import CampingImage from 'src/assets/Camping.png';
+import AmazonImage from 'src/assets/Amazon.png';
+import YouTubeImage from 'src/assets/youtube.png';
+import DiviTeamImage from 'src/assets/Screenshot2024-06-29.png';
 
 const Projects = () => {
   const projects = [
@@ -7,21 +13,21 @@ const Projects = () => {
       imgSrc : 'src/assets/Gym.png',
       link: 'https://gym-project-green-delta.vercel.app/',
     },
-    // {
-    //   title: 'Business Page',
-    //   imgSrc: 'src/assets/Bussiness.png',
-    //   link: 'https://yashmankar1812.github.io/BussinessPage/',
-    // },
+    {
+      title: 'Business Page',
+      imgSrc: 'src/assets/Bussiness.png',
+      link: 'https://yashmankar1812.github.io/BussinessPage/',
+    },
     {
       title: 'Camping Services',
       imgSrc: 'src/assets/Camping.png',
-      link: 'https://yashmankar1812.github.io/Weekly-T-4/#services',
+      link: 'weekly-t-4.vercel.app',
     },
-    // {
-    //   title: 'Amazon UI',
-    //   imgSrc: 'src/assets/Amazon.png',
-    //   link: 'https://yashmankar1812.github.io/Weekly_Test-5/#',
-    // },
+    {
+      title: 'Amazon UI',
+      imgSrc: 'src/assets/Amazon.png',
+      link: 'https://yashmankar1812.github.io/Weekly_Test-5/#',
+    },
     {
       title: 'YouTube UI',
       imgSrc: 'src/assets/youtube.png',

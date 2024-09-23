@@ -11,6 +11,13 @@ import Projects from './components/Project'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import TypingText from './components/TypingText'
+import React from 'react';
+import GymImage from 'src/assets/Gym.png';
+import BusinessImage from 'src/assets/Bussiness.png';
+import CampingImage from 'src/assets/Camping.png';
+import AmazonImage from 'src/assets/Amazon.png';
+import YouTubeImage from 'src/assets/youtube.png';
+import DiviTeamImage from 'src/assets/Screenshot2024-06-29.png';
 
 
 
@@ -22,10 +29,7 @@ function App() {
     <>
     <Navbar/>
     <Hero/>
-    {/* <div className="min-h-screen flex items-center justify-center bg-gray-100"> */}
-    {/* </div> */}
     <About/>
-    {/* <Academics/>   */}
     <Skills/>
     <Projects/>
     <Contact/>
