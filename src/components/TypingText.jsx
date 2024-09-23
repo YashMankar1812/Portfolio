@@ -4,7 +4,8 @@ const TypingText = () => {
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
-  const texts = ['Hello :)', 'I’m Yash Mankar', 'Software Developer', 'Welcome to My Site', 'Have a Great Day!'];
+  const texts = ['Hello :)', 'I’m Yash Mankar', 'Coder','Tech Explorer','Creative Thinker'
+  ,'UI/UX Designer','Innovator','Front-End Developer'];
   const typingDelay = 120;
   const erasingDelay = 150;
   const newTextDelay = 1000;
@@ -37,7 +38,7 @@ const TypingText = () => {
   return (
     <div className="name-container text-center">
       <div className="text-container">
-        <span id="text" className="text-5xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to to-blue-500">
+        <span id="text" className="text-4xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to to-blue-500 mx-9">
           {texts[index].substring(0, charIndex)}
         </span>
       </div>

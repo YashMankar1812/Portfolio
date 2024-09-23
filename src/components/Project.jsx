@@ -5,33 +5,28 @@ const Projects = () => {
     {
       title: 'Gym Project',
       imgSrc : 'src/assets/Gym.png',
-      link: 'https://yashmankar1812.github.io/Gym-Project/',
+      link: 'https://gym-project-green-delta.vercel.app/',
     },
-    {
-      title: 'Business Page',
-      imgSrc: 'src/assets/Bussiness.png',
-      link: 'https://yashmankar1812.github.io/BussinessPage/',
-    },
+    // {
+    //   title: 'Business Page',
+    //   imgSrc: 'src/assets/Bussiness.png',
+    //   link: 'https://yashmankar1812.github.io/BussinessPage/',
+    // },
     {
       title: 'Camping Services',
       imgSrc: 'src/assets/Camping.png',
       link: 'https://yashmankar1812.github.io/Weekly-T-4/#services',
     },
-    {
-      title: 'Amazon UI',
-      imgSrc: 'src/assets/Amazon.png',
-      link: 'https://yashmankar1812.github.io/Weekly_Test-5/#',
-    },
+    // {
+    //   title: 'Amazon UI',
+    //   imgSrc: 'src/assets/Amazon.png',
+    //   link: 'https://yashmankar1812.github.io/Weekly_Test-5/#',
+    // },
     {
       title: 'YouTube UI',
       imgSrc: 'src/assets/youtube.png',
-      link: 'https://yashmankar1812.github.io/Youtube_UI/',
+      link: 'https://youtube-ui-ten.vercel.app/',
     },
-    // {
-    //   title: 'Animation Watches',
-    //   imgSrc: 'src/assets/Watches.png',
-    //   link: 'https://yashmankar1812.github.io/Animation-/',
-    // },
     {
         title: 'Divi Team Work  ',
         imgSrc: 'src/assets/Screenshot 2024-06-29 220829.png',

@@ -7,16 +7,16 @@ import { faWind } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-16 bg-black dark:bg-gray-900">
+    <section id="skills" className="py-16 bg-black dark:bg-gray-900 ">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold text-gray-400 dark:text-white">
           My <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to to-blue-500">Skills</span>
         </h1>
-        <p className="mt-4 text-gray-400 dark:text-gray-300 font-semibold" >
+        <p className="mt-4 text-gray-400 dark:text-gray-300 font-semibold mx-5" >
           Here are some of the skills I have acquired during my journey as a web developer...
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 mt-12">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 mt-12 mx-8">
           <div className="skill_card p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:bg-indigo-100 dark:hover:bg-orange-200  transform transition-transform duration-300 hover:scale-105">
             <FontAwesomeIcon icon={faHtml5} className="text-6xl text-orange-500" />
           </div>

@@ -30,7 +30,7 @@ const Footer = () => {
           </li>
         </ul>
         <div className="copyright">
-          <p className="text-gray-400">
+          <p className="text-gray-400 mx-3">
             © 2025 All Rights Reserved. Designed with <i className="fa-solid fa-heart text-red-500"></i> by 
             <a href="" className="text-blue-400 hover:underline"> Yash Mankar</a>.
           </p>
