@@ -22,7 +22,7 @@ const Projects = () => {
       liveDemo: 'https://yashmankar1812.github.io/BussinessPage/',
       githubRepo: 'https://github.com/yashmankar1812/BussinessPage',
       description: 'A sleek business page to showcase company services and products.',
-      language: 'HTML/CSS',
+      language: 'HTML/Tailwind',
     },
     {
       title: 'Camping Services',
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: 'Amazon UI',
       imgSrc: '../assets/Amazon.png',
-      liveDemo: 'https://yashmankar1812.github.io/Weekly_Test-5/#',
+      liveDemo: 'https://yashmankar1812.github.io/Weekly_Test-5/',
       githubRepo: 'https://github.com/yashmankar1812/Weekly_Test-5',
       description: 'A replica of the Amazon UI with responsive features.',
       language: 'HTML/CSS',
@@ -44,7 +44,7 @@ const Projects = () => {
       title: 'YouTube UI',
       imgSrc: '../assets/youtube.png',
       liveDemo: 'https://youtube-ui-ten.vercel.app/',
-      githubRepo: 'https://github.com/username/youtube-ui',
+      githubRepo: 'https://github.com/YashMankar1812/Youtube_UI',
       description: 'A UI clone of YouTube with dark mode support.',
       language: 'Html/CSS',
     },
@@ -58,9 +58,25 @@ const Projects = () => {
       description: 'A collaborative project with the Divi Elegant theme integration.',
       language: 'Javascript',
     },
+    // https://emogi.netlify.app/
+    // https://github.com/YashMankar1812/Emoji
+
+    // https://yashmankar1812.github.io/Burger-King/
+    // https://github.com/YashMankar1812/Burger-King
+
+
+    {
+      title: 'Pokemon App',
+      imgSrc: 'src/assets/Pokemon.png',
+      liveDemo: ' https://yashmankar1812.github.io/Pokemon/',
+      githubRepo: 'https://github.com/YashMankar1812/Pokemon',
+      description: 'A web app to explore and search for Pokémon information.',
+      language: 'Javascript',
+    },
+    
     {
       title: 'Movie App',
-      imgSrc: 'src/assets/Screenshot 2024-10-21 163517.png',
+      imgSrc: 'src/assets/MovieApp.png',
       liveDemo: 'https://moviesearchappp.netlify.app/',
       githubRepo: 'https://github.com/YashMankar1812/Movie-Search',
       description: 'A web app for searching movies, displaying details, and user reviews.',
@@ -73,7 +89,7 @@ const Projects = () => {
 
     {
       title: 'Image Generator',
-      imgSrc: 'src/assets/Screenshot 2024-10-21 161337.png',
+      imgSrc: 'src/assets/ImageGeneration.png',
       liveDemo: 'https://geekster-react-js-ft43.vercel.app/',
       githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Axios_hlw',
       description: 'An image generator that lets users create and customize images with different styles.',
@@ -81,7 +97,7 @@ const Projects = () => {
     },
     {
       title: 'Cart Management',
-      imgSrc: 'src/assets/Screenshot 2024-10-21 161847.png',
+      imgSrc: 'src/assets/Ecommerce.png',
       liveDemo: 'https://geekster-react-js-a8ls.vercel.app/',
       githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Day_6_Hlw',
       description: 'Managing a shopping cart, allowing users to add products and adjust quantities.',
@@ -89,7 +105,7 @@ const Projects = () => {
     },
     {
       title: 'People Info Management',
-      imgSrc: 'src/assets/Screenshot 2024-10-21 162852.png',
+      imgSrc: 'src/assets/PeopleManagement.png',
       liveDemo: 'https://geekster-react-js-36l9.vercel.app/ ',
       githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Weekly-T-3',
       description: 'A web app for managing and displaying user information.',
@@ -189,7 +205,7 @@ const Projects = () => {
         <span className="text-white">{`${currentPage} of ${totalPages}`}</span>
 
         <button
-          onClick={() => setCurrentPage(currentPage + 1)}
+          onClick={() => setCurrentPage(currentPage + 2)}
           disabled={currentPage === totalPages}
           className="bg-gray-800 text-white px-4 py-2 rounded mx-2 disabled:opacity-50"
         >

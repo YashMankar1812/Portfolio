@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='bg-black text-white text-center py-16 dark:bg-gray-900 ' >
       <img 
-  src="public/assets/WhatsApp_Image_2024-09-22_at_13.05.17_e9af4edf-removebg-preview (1).png" 
+  src="src/assets/WhatsApp_Image_2024-09-22_at_13.05.17_e9af4edf-removebg-preview (1).png" 
   alt="" 
   className='mx-auto mb-8 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105 shadow-lg' 
 />  
