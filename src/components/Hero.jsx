@@ -1,14 +1,15 @@
 import React from 'react'
-import HeroImage from '../assets/WhatsApp_Image_2024-09-22_at_13.05.17_e9af4edf-removebg-preview (1).png'
+
+
 import TypingText from './TypingText'
 const Hero = () => {
   return (
     <div className='bg-black text-white text-center py-16 dark:bg-gray-900 ' >
       <img 
-  src={HeroImage} 
+  src="public/assets/WhatsApp_Image_2024-09-22_at_13.05.17_e9af4edf-removebg-preview (1).png" 
   alt="" 
   className='mx-auto mb-8 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105 shadow-lg' 
-/>
+/>  
 
       {<h1 className='text-4xl font-bold py-4 mx-5'>
         Hey 👋🏻 {" "}

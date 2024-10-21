@@ -23,10 +23,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-gray-900 text-white dark:bg-white dark:bg-gradient-to-r from-pink-500 to-purple-500 px-8 md:px-16 lg:px-24'>
+    <nav className='bg-gray-900 text-white dark:bg-white dark:bg-gradient-to-r from-pink-500 to-purple-500 fixed top-0 left-0 w-full z-50 px-8 md:px-16 lg:px-24'>
       <div className='py-2 flex justify-between items-center'>
         {/* Logo */}
-        <div className='text-2xl font-bold tracking-widest bg-clip-text'>Yash</div>
+        <div className="text-2xl font-extrabold tracking-wide transition duration-500 ease-in-out transform hover:scale-110 hover:shadow-2xl shadow-lg font-poppins">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500 shadow-lg">Y</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-500 shadow-lg">ash</span>
+        </div>
 
         {/* Hamburger Icon */}
         <div className='md:hidden ml-auto'>
