@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Projects = () => {
   const [selectedLanguage, setSelectedLanguage] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 3; // Number of projects per page
+  const projectsPerPage = 6; // Number of projects per page
 
   const projects = [
     {
@@ -52,7 +52,7 @@ const Projects = () => {
     // Javascript 
     {
       title: 'Divi Team Work',
-      imgSrc: 'src/assets/Divi.png',
+      imgSrc: '../assets/Divi.png',
       liveDemo: 'https://aditya234892.github.io/ELEGANT-THEMES-Team/divi/divi',
       githubRepo: 'https://github.com/aditya234892/ELEGANT-THEMES-Team',
       description: 'A collaborative project with the Divi Elegant theme integration.',
@@ -60,7 +60,7 @@ const Projects = () => {
     },
     {
       title: 'Emoji App',
-      imgSrc: 'src/assets/Emoji.png',
+      imgSrc: '../assets/Emoji.png',
       liveDemo: 'https://emogi.netlify.app/',
       githubRepo: 'https://github.com/YashMankar1812/Emoji',
       description: 'A web app to find and share emojis.',
@@ -68,7 +68,7 @@ const Projects = () => {
     },
     {
       title: 'BurgerKing',
-      imgSrc: 'src/assets/BurgerKing.png',
+      imgSrc: '../assets/BurgerKing.png',
       liveDemo: 'https://yashmankar1812.github.io/Burger-King/',
       githubRepo: 'https://github.com/YashMankar1812/Burger-King',
       description: 'A web app for ordering burgers at Burger King.',
@@ -221,4 +221,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
