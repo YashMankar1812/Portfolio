@@ -14,10 +14,10 @@ const Contact = () => {
           <p className="text-gray-400">
             If you have any questions or want to work together, feel free to contact me!
           </p>
-          <a href="tel:+8827140254" className="flex items-center space-x-2 text-gray-400">
+          {/* <a href="tel:+8827140254" className="flex items-center space-x-2 text-gray-400">
           <FontAwesomeIcon icon={faPhone} className="text-2xl text-green-500" />
             <span>: 882 7140 254</span>
-          </a>
+          </a> */}
           <a href="mailto:mankaryash25@gmail.com" className="flex items-center space-x-2 text-gray-400">
           <FontAwesomeIcon icon={faEnvelope} className="text-2xl text-red-500" />
             <span>: mankaryash25@gmail.com</span>

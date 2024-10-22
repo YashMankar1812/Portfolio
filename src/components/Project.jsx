@@ -52,7 +52,7 @@ const Projects = () => {
     // Javascript 
     {
       title: 'Divi Team Work',
-      imgSrc: '../assets/Screenshot 2024-06-29 220829.png',
+      imgSrc: 'public/assets/Divi.png',
       liveDemo: 'https://aditya234892.github.io/ELEGANT-THEMES-Team/divi/divi',
       githubRepo: 'https://github.com/aditya234892/ELEGANT-THEMES-Team',
       description: 'A collaborative project with the Divi Elegant theme integration.',
@@ -67,7 +67,7 @@ const Projects = () => {
 
     {
       title: 'Pokemon App',
-      imgSrc: 'src/assets/Pokemon.png',
+      imgSrc: '../assets/Pokemon.png',
       liveDemo: ' https://yashmankar1812.github.io/Pokemon/',
       githubRepo: 'https://github.com/YashMankar1812/Pokemon',
       description: 'A web app to explore and search for Pokémon information.',
@@ -76,7 +76,7 @@ const Projects = () => {
     
     {
       title: 'Movie App',
-      imgSrc: 'src/assets/MovieApp.png',
+      imgSrc: '../assets/MovieApp.png',
       liveDemo: 'https://moviesearchappp.netlify.app/',
       githubRepo: 'https://github.com/YashMankar1812/Movie-Search',
       description: 'A web app for searching movies, displaying details, and user reviews.',
@@ -89,7 +89,7 @@ const Projects = () => {
 
     {
       title: 'Image Generator',
-      imgSrc: 'src/assets/ImageGeneration.png',
+      imgSrc: '../assets/ImageGeneration.png',
       liveDemo: 'https://geekster-react-js-ft43.vercel.app/',
       githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Axios_hlw',
       description: 'An image generator that lets users create and customize images with different styles.',
@@ -97,7 +97,7 @@ const Projects = () => {
     },
     {
       title: 'Cart Management',
-      imgSrc: 'src/assets/Ecommerce.png',
+      imgSrc: '../assets/Ecommerce.png',
       liveDemo: 'https://geekster-react-js-a8ls.vercel.app/',
       githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Day_6_Hlw',
       description: 'Managing a shopping cart, allowing users to add products and adjust quantities.',
@@ -105,16 +105,12 @@ const Projects = () => {
     },
     {
       title: 'People Info Management',
-      imgSrc: 'src/assets/PeopleManagement.png',
+      imgSrc: '../assets/PeopleManagement.png',
       liveDemo: 'https://geekster-react-js-36l9.vercel.app/ ',
       githubRepo: 'https://github.com/YashMankar1812/Geekster-React_JS/tree/main/Weekly-T-3',
       description: 'A web app for managing and displaying user information.',
       language: 'React',
     }
-    
-    
-    
-    
   ];
 
   // Filter projects by language
@@ -167,7 +163,6 @@ const Projects = () => {
               <h3 className="text-white text-2xl font-semibold mb-4">{project.title}</h3>
 
               <p className="text-gray-300 text-sm text-center mb-4">{project.description}</p>
-
               <div className="flex space-x-4">
                 <a
                   href={project.liveDemo}
