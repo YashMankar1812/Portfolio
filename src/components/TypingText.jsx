@@ -6,9 +6,9 @@ const TypingText = () => {
   const [isTyping, setIsTyping] = useState(true);
   const texts = ['Hello :)', 'I’m Yash Mankar', 'Coder','Tech Explorer','Creative Thinker'
   ,'UI/UX Designer','Innovator','Front-End Developer'];
-  const typingDelay = 120;
-  const erasingDelay = 150;
-  const newTextDelay = 1000;
+  const typingDelay = 10;
+  const erasingDelay = 40;
+  const newTextDelay = 1500;
 
   useEffect(() => {
     let typingTimeout;
