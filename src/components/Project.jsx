@@ -52,19 +52,28 @@ const Projects = () => {
     // Javascript 
     {
       title: 'Divi Team Work',
-      imgSrc: 'public/assets/Divi.png',
+      imgSrc: 'src/assets/Divi.png',
       liveDemo: 'https://aditya234892.github.io/ELEGANT-THEMES-Team/divi/divi',
       githubRepo: 'https://github.com/aditya234892/ELEGANT-THEMES-Team',
       description: 'A collaborative project with the Divi Elegant theme integration.',
       language: 'Javascript',
     },
-    // https://emogi.netlify.app/
-    // https://github.com/YashMankar1812/Emoji
-
-    // https://yashmankar1812.github.io/Burger-King/
-    // https://github.com/YashMankar1812/Burger-King
-
-
+    {
+      title: 'Emoji App',
+      imgSrc: 'src/assets/Emoji.png',
+      liveDemo: 'https://emogi.netlify.app/',
+      githubRepo: 'https://github.com/YashMankar1812/Emoji',
+      description: 'A web app to find and share emojis.',
+      language: 'Javascript',
+    },
+    {
+      title: 'BurgerKing',
+      imgSrc: 'src/assets/BurgerKing.png',
+      liveDemo: 'https://yashmankar1812.github.io/Burger-King/',
+      githubRepo: 'https://github.com/YashMankar1812/Burger-King',
+      description: 'A web app for ordering burgers at Burger King.',
+      language: 'Javascript',
+    },
     {
       title: 'Pokemon App',
       imgSrc: '../assets/Pokemon.png',
@@ -212,3 +221,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
