@@ -60,7 +60,7 @@ const Projects = () => {
     },
     {
       title: 'Emoji App',
-      imgSrc: '../assets/Emoji.png',
+      imgSrc: 'public/assets/Emoji.png',
       liveDemo: 'https://emogi.netlify.app/',
       githubRepo: 'https://github.com/YashMankar1812/Emoji',
       description: 'A web app to find and share emojis.',
@@ -68,7 +68,7 @@ const Projects = () => {
     },
     {
       title: 'BurgerKing',
-      imgSrc: '../assets/BurgerKing.png',
+      imgSrc: 'public/assets/BurgerKing.png',
       liveDemo: 'https://yashmankar1812.github.io/Burger-King/',
       githubRepo: 'https://github.com/YashMankar1812/Burger-King',
       description: 'A web app for ordering burgers at Burger King.',
