@@ -1,11 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faGithub, faLinkedin, faInstagram,faTwitter } from '@fortawesome/free-brands-svg-icons';
+import Contact from '../components/Contact';
 
 
 const Footer = () => {
   return (
-    <section className="footer bg-gray-900 text-white py-6 dark:bg-black">
+    <>
+    
+    <Contact/>
+    <section className="footer bg-gray-800 text-white py-6 dark:bg-black     ">
+      <a href="" className="text-2xl text-blue-400 text-center flex justify-center "> Yash Mankar</a>.
       <div className="social-container text-center">
         <ul className="social-media flex justify-center space-x-6 mb-6">
           <li className="icon">
@@ -30,13 +35,14 @@ const Footer = () => {
           </li>
         </ul>
         <div className="copyright">
-          <p className="text-gray-400 mx-3">
-            © 2025 All Rights Reserved. Designed with <i className="fa-solid fa-heart text-red-500"></i> by 
-            <a href="" className="text-blue-400 hover:underline"> Yash Mankar</a>.
+          <p className="text-gray-400 mx-3 bg-black p-2 m-0">
+          © 2025 All Rights Reserved. Designed by 💖 yash
+        {/* © 2025 All Rights Reserved. Designed with <i className="fa-solid fa-heart text-red-500"></i> by  yash */}
           </p>
         </div>
       </div>
     </section>
+    </>
   );
 };
 
